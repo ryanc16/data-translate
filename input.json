@@ -1,0 +1,28 @@
+[
+  {
+    "filename": "file1",
+    "data": [
+      {
+        "key": "key1",
+        "value": 100
+      },
+      {
+        "key": "key2",
+        "value": 200
+      }
+    ]
+  },
+  {
+    "filename": "file2",
+    "data": [
+      {
+        "key": "key1",
+        "value": 300
+      },
+      {
+        "key": "key2",
+        "value": 400
+      }
+    ]
+  }
+]
