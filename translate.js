@@ -8,15 +8,15 @@
  */
 function translate(input, swapProps1, swapProps2) {
   let map = {};
-  for(let file of input) {
-    for(let item of file.data) {
-      if(item[swapProps2.key] in map === false) {
-        map[item[swapProps2.key]] = [];
+  for(let itemParent of input) {
+    for(let itemChild of itemParent[swapProps1.value]) {
+      if(itemChild[swapProps2.key] in map === false) {
+        map[itemChild[swapProps2.key]] = [];
       }
       let o = {};
-      o[swapProps1.key] = file[swapProps1.key];
-      o[swapProps2.value] = item[swapProps2.value];
-      map[item[swapProps2.key]].push(o);
+      o[swapProps1.key] = itemParent[swapProps1.key];
+      o[swapProps2.value] = itemChild[swapProps2.value];
+      map[itemChild[swapProps2.key]].push(o);
     }
   }
   return Object.keys(map).map(key => {
