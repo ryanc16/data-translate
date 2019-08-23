@@ -8,7 +8,11 @@
       },
       {
         "filename": "file2",
-        "value": 300
+        "value": 400
+      },
+      {
+        "filename": "file3",
+        "value": 600
       }
     ]
   },
@@ -21,7 +25,25 @@
       },
       {
         "filename": "file2",
-        "value": 400
+        "value": 500
+      }
+    ]
+  },
+  {
+    "key": "key3",
+    "data": [
+      {
+        "filename": "file1",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "key": "key4",
+    "data": [
+      {
+        "filename": "file3",
+        "value": 700
       }
     ]
   }

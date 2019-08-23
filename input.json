@@ -9,6 +9,10 @@
       {
         "key": "key2",
         "value": 200
+      },
+      {
+        "key": "key3",
+        "value": 300
       }
     ]
   },
@@ -17,11 +21,24 @@
     "data": [
       {
         "key": "key1",
-        "value": 300
+        "value": 400
       },
       {
         "key": "key2",
-        "value": 400
+        "value": 500
+      }
+    ]
+  },
+  {
+    "filename": "file3",
+    "data": [
+      {
+        "key": "key1",
+        "value": 600
+      },
+      {
+        "key": "key4",
+        "value": 700
       }
     ]
   }
